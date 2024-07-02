@@ -1,6 +1,7 @@
 import { getUsers } from '@/lib/db';
 import { UsersTable } from './users-table';
 import { Search } from './search';
+import { sql } from '@vercel/postgres';
 
 export default async function IndexPage({
   searchParams
